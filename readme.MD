@@ -33,6 +33,21 @@ Ou, se estiver usando a IDE Anaconda, utilize:
 conda remove scikit-learn
 ```
 
+##Instalando o Matplotlib e suas dependências
+
+Saia do shell python e no cmd ou no shell do linux use os comandos abaixo:
+```
+python -m pip install -U pip
+```
+
+```
+python -m pip install -U matplotlib
+```
+Caso queira desinstalar use:
+```
+python -m pip uninstall matplotlib
+```
+
 ### Prerequisitos
 Ter o python instalado na máquina.
 
@@ -71,6 +86,21 @@ pip uninstall scikit-learn
 Or, if you are using the Anaconda IDE, use:
 ```
 conda remove scikit-learn
+```
+
+##Installing Matplotlib and its Dependencies
+
+Exit the python shell and in the cmd or linux shell use the commands below:
+```
+python -m pip install -U pip
+```
+
+```
+python -m pip install -U matplotlib
+```
+If you want to uninstall use:
+```
+python -m pip uninstall matplotlib
 ```
 
 ### Prerequisites
