@@ -48,6 +48,27 @@ Caso queira desinstalar use:
 python -m pip uninstall matplotlib
 ```
 
+## Instalando o Pandas
+Para instalar o pandas na IDE anaconda use:
+```
+conda install pandas
+```
+Para desinstalar:
+```
+conda uninstall pandas
+```
+Para instalar o pandas normalmente com o pip:
+```
+pip install pandas
+```
+Ou
+```
+pip3 install pandas
+```
+Para desinstalar:
+```
+pip uninstall pandas
+```
 ### Prerequisitos
 Ter o python instalado na máquina.
 
@@ -102,6 +123,30 @@ If you want to uninstall use:
 ```
 python -m pip uninstall matplotlib
 ```
+
+## Pandas Installing 
+To install pandas in the anaconda IDE use:
+```
+conda install pandas
+```
+To uninstall:
+```
+conda uninstall pandas
+```
+To install the pandas normally with the pip:
+```
+pip install pandas
+```
+Or
+```
+pip3 install pandas
+```
+To uninstall:
+```
+pip uninstall pandas
+```
+### Prerequisitos
+Ter o python instalado na máquina.
 
 ### Prerequisites
 Have python installed on the machine.
