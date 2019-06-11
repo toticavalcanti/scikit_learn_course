@@ -37,7 +37,7 @@ conda remove scikit-learn
 Ter o python instalado na máquina.
 
 
-================================================================================================
+====================================================================================
 # Scikit-learn course of the blog [Fluent Code](https://www.codigofluente.com.br/big-data/aprendizado-de-maquina-machine-learning/python-com-scikit-learn/)
 
 ## Scikit-learn instalation
