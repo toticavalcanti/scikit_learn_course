@@ -1,4 +1,4 @@
-# Curso de scikit-learn do blog [código fluente](https://www.codigofluente.com.br/big-data/aprendizado-de-maquina-machine-learning/python-com-scikit-learn/)
+﻿# Curso de scikit-learn do blog [código fluente](https://www.codigofluente.com.br/big-data/aprendizado-de-maquina-machine-learning/python-com-scikit-learn/)
 
 ## Instalando o scikit-learn
 
@@ -33,7 +33,7 @@ Ou, se estiver usando a IDE Anaconda, utilize:
 conda remove scikit-learn
 ```
 
-##Instalando o Matplotlib e suas dependências
+## Instalando o Matplotlib e suas dependências
 
 Saia do shell python e no cmd ou no shell do linux use os comandos abaixo:
 ```
