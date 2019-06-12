@@ -25,3 +25,5 @@ plt.xlabel('Sepal length')
 plt.ylabel('Sepal width')
 plt.xlim(xx.min(), xx.max())
 plt.title('SVC with linear kernel')
+
+plt.show()
