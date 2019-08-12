@@ -1,5 +1,6 @@
 # importa os dataset que vem com o sklearn
 from sklearn import datasets
+# importa o pandas como pd
 import pandas as pd
 # Carrega o digits dataset na variável digits
 digits = datasets.load_digits()
@@ -21,9 +22,9 @@ X_train, X_test, Y_train, Y_test = train_test_split(data_x, target_y, test_size 
 # Treina o modelo clf
 clf.fit(X_train, Y_train)
 # Prevê o valor do registro 472 do dígito do dataset, que é um 7.
-clf.predict(data[:][472:473])
+clf.predict(data_x[:][472:473])
 # Vamos conferir se o modelo acertou com
-target[:][472:473]
+target_y[:][472:473]
 # Mostra o quanto o modelo é acertivo.
 clf.score(X_test, Y_test)
 #------   Salvando o modelo -----------------
