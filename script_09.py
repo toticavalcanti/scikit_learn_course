@@ -20,7 +20,7 @@ X_train, X_test, Y_train, Y_test = train_test_split(data_x, target_y, test_size 
 #-------- Treinando o modelo -------------
 # Treina o modelo clf
 clf.fit(X_train, Y_train)
-# Prevê o valor do registro 472 do dígito do dataset, que é um 4.
+# Prevê o valor do registro 472 do dígito do dataset, que é um 7.
 clf.predict(data[:][472:473])
 # Vamos conferir se o modelo acertou com
 target[:][472:473]
