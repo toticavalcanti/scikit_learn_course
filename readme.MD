@@ -109,7 +109,7 @@ Or, if you are using the Anaconda IDE, use:
 conda remove scikit-learn
 ```
 
-##Installing Matplotlib and its Dependencies
+## Installing Matplotlib and its Dependencies
 
 Exit the python shell and in the cmd or linux shell use the commands below:
 ```

@@ -48,6 +48,6 @@ filename = 'kNeighborsClassifier_iris_model.sav'
 joblib.dump(knn_classifier, filename)
 #Algumas horas ou talvez dias dias depois...
 #Carrega o modelo do disco
-loaded_model = joblib.load(filename)
-result = loaded_model.score(x_test, y_test)
+loaded_model_knn = joblib.load(filename)
+result = loaded_model_knn.score(x_test, y_test)
 print(result)
