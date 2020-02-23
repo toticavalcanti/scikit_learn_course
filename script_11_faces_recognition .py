@@ -139,8 +139,12 @@ def plot_gallery(images, titles, h, w, n_row=3, n_col=4):
 
 # Plota o resultado da previsão em uma parte do conjunto de testes
 def title(y_pred, y_test, target_names, i):
-    pred_name = target_names[y_pred[i]].rsplit(' ', 1)[-1]
-    true_name = target_names[y_test[i]].rsplit(' ', 1)[-1]
+    # imagine o target_names[y_pred[i]] = 'George W Bush'
+    # definir o parâmetro maxsplit como 1 no rsplit
+    # retornará uma lista com 2 elementos ['George W', 'Bush']
+    # o -1 pega só o último elemento ('Bush)
+    pred_name = target_names[y_pred[i]].rsplit(' ', 1)[-1] # resultados que o modelo previu
+    true_name = target_names[y_test[i]].rsplit(' ', 1)[-1] # Respostas corretas
     return f'predicted: {pred_name}\ntrue:      {true_name}'
 
 prediction_titles = [title(y_pred, y_test, target_names, i)
