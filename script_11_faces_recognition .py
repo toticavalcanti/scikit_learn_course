@@ -155,5 +155,7 @@ plot_gallery(X_test, prediction_titles, h, w)
 # plota a galeria das autofaces mais significativas
 eigenface_titles = [f"eigenface {i}" for i in range(eigenfaces.shape[0])]
 plot_gallery(eigenfaces, eigenface_titles, h, w)
-
+# inicia um loop de eventos, procura todos os objetos de figura ativos
+# no momento e abre uma ou mais janelas interativas que exibem sua figura
+# ou figuras
 plt.show()
